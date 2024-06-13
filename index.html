@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap v5.3</title>
+
+
+    <!-- :::::::: CSS LINKS ::::::::: -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+  </head>
+  <body>
+    <h1 class="">CSS Variables</h1>
+    <div class="container mb-5 ">
+      
+        <!-- one -->
+        <section class="box sec1">
+          <div class="container">
+            <h1>hello world!</h1>
+          </div>
+        </section>
+
+        <!-- two -->
+        <section class="box sec2">
+          <div class="container">
+            <h1>hello world!</h1>
+          </div>
+        </section>
+
+        <!-- three -->
+        <section class="box sec4">
+          <div class="container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique magni, eos saepe velit necessitatibus a quia magnam explicabo. Quis accusantium nulla pariatur ipsa explicabo.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero similique magni, eos saepe velit necessitatibus a quia magnam explicabo. Quis accusantium nulla pariatur ipsa explicabo.</p>
+        
+          </div>
+        </section>
+
+        <!-- four -->
+        <section class="box sec1">
+          <div class="container">
+            <h2>hello world!</h2>
+          </div>
+        </section>
+
+        <!-- five -->
+        <section class="box sec1">
+          <div class="container">
+            <h3>hello world!</h3>
+          </div>
+        </section>
+
+    </div>
+
+     
+
+
+    <h1 class="">Bootstrap Icons</h1>
+    <div class="container icons mb-5 ">
+      <i class="bi bi-watch"></i>
+      <i class="bi bi-airplane-engines"></i>
+      <i class="bi bi-apple"></i>
+      <i class="bi bi-bank"></i>
+      <i class="bi bi-bell-fill"></i>
+    </div>
+
+
+    <h1>Form</h1>
+    <div class="container mb-5">
+      
+      <form class="row g-3">
+
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+      
+    </div>
+    
+
+
+    <h1>Form Validation</h1>
+    <div class="container mb-5">
+      
+
+      <form class="row g-3 needs-validation" novalidate>
+        <!-- first name -->
+        <div class="col-md-6">
+          <label for="f_name" class="form-label">First name</label>
+          <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="Enter your first name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please enter your first name.
+          </div>
+        </div>
+
+        <!-- last name -->
+        <div class="col-md-6">
+          <label for="l_name" class="form-label">Last name</label>
+          <input type="text" class="form-control" id="l_name" name="l_name" placeholder="Enter your last name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please enter your last name.
+          </div>
+        </div>
+
+        <!-- email address -->
+        <div class="col-md-12">
+          <label for="email" class="form-label">Email Address</label>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+          <div class="invalid-feedback">
+            Please enter your email address.
+          </div>
+        </div>
+
+       <!-- check box -->
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+
+      </form>
+
+      
+      
+    </div>
+   
+    
+    
+
+
+    
+    <!-- :::::::: SCRIPT LINKS ::::::::: -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
